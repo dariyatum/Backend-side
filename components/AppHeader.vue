@@ -141,7 +141,7 @@ const links = [
   {name: 'Products', 
     submenu: [
       {name: 'Hiring Subscription', path: '/products/hiring-subscription'},
-      {name: 'HR Toolkit Subscription', path: '/products/hr-toolkit'}
+      {name: 'HR Toolkit Subscription', path: '/products/hrtoolkit-subscription'}
     ]
   },
   { name: 'Why Us?', path: '/why-us' }
