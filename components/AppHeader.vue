@@ -13,14 +13,14 @@
       <nav class="hidden md:flex items-center gap-8">
   <div v-for="link in links" :key="link.name" class="relative group">
     <!-- Parent link -->
-    <NuxtLink
-      v-if="!link.submenu"
-      :to="link.path"
-      class="relative text-gray-700 font-medium hover:text-red-600 transition duration-300"
-      active-class="text-red-600"
-    >
-      {{ link.name }}
-    </NuxtLink>
+      <NuxtLink
+        v-if="!link.submenu"
+        :to="link.path"
+        class="relative text-gray-700 font-medium hover:text-red-600 transition duration-300"
+        active-class="text-red-600"
+      >
+        {{ link.name }}
+      </NuxtLink>
 
     <!-- Dropdown parent -->
     <div v-else>
@@ -141,7 +141,7 @@ const links = [
   {name: 'Products', 
     submenu: [
       {name: 'Hiring Subscription', path: '/products/hiring-subscription'},
-      {name: 'HR Toolkit', path: '/products/hr-toolkit'}
+      {name: 'HR Toolkit Subscription', path: '/products/hrtoolkit-subscription'}
     ]
   },
   { name: 'Why Us?', path: '/why-us' }
