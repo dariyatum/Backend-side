@@ -29,16 +29,6 @@
       </h2>
 
       
-      <div class="flex justify-between mb-6">
-        <button class="w-1/2 py-2 border rounded-full mr-2 hover:bg-gray-100 transition">
-          Job Seeker
-        </button>
-        <button class="w-1/2 py-2 border border-red-400 text-red-500 rounded-full ml-2 hover:bg-red-50 transition">
-          Employer
-        </button>
-      </div>
-
-      
       <div class="mb-4">
         <label class="block mb-1 text-sm font-medium">Email*</label>
         <input 
