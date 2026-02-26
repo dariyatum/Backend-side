@@ -61,7 +61,7 @@
 
       
       <button class="w-full py-3 bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-full font-semibold hover:opacity-90 transition">
-        <nuxt-link to="#">Login</nuxt-link>
+        <nuxt-link to="find-jobs">Login</nuxt-link>
       </button>
 
       
