@@ -85,7 +85,7 @@
 </div>
 
 
-   <a href="http://localhost:3000/our2"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
+   <a href="http://localhost:3000/monthly"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
     Monthly
   </button></a>
 
@@ -108,8 +108,8 @@
           <tr class="text-center">
             <th class="p-4 border border-gray-200 w-[200px]">
               <div class="flex flex-col items-center">
-                <img src="https://workingna.com/dist/img/logo-workingna.png" alt="Workingna" class="w-32 mb-2">
-                <p class="text-[8px] text-gray-400 uppercase italic">Hire Better and Faster with Data</p>
+                <img src="https://workingna.com/dist/img/logo-workingna.png" alt="" class="w-32 mb-2">
+                <p class="text-[8px] text-gray-400 uppercase italic"></p>
               </div>
             </th>
             
