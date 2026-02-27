@@ -16,7 +16,7 @@
 
         <p class="text-xl text-gray-600 font-medium">
           Faster, Smarter, Lower Cost - All in One <br />
-          Platform Powered by AI.
+          Platform Powered .
         </p>
 
         <div class="flex items-center gap-6">
