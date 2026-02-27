@@ -61,7 +61,7 @@
 
       
       <button class="w-full py-3 bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-full font-semibold hover:opacity-90 transition">
-        <nuxt-link to="#">Login</nuxt-link>
+        <nuxt-link to="find-jobs">Login</nuxt-link>
       </button>
 
       
@@ -84,4 +84,49 @@
   </div>
 
 </section>
+<input
+  v-model="email"
+  type="email"
+  placeholder="name@company.com"
+  class="w-full border rounded-lg px-4 py-2"
+/>
+<input
+  v-model="password"
+  type="password"
+  placeholder="password"
+  class="w-full border rounded-lg px-4 py-2"
+/>
 </template>
+
+<script setup>
+const email = ref('haksovanphanha99@gmail.com')
+const password = ref('1100889900')
+
+const handleLogin = async () => {
+  try {
+    const response = await $fetch('http://localhost:1337/api/auth/local', {
+      method: 'POST',
+      body: {
+        identifier: email.value,
+        password: password.value
+      }
+    })
+
+    console.log(response)
+
+    
+    localStorage.setItem('token', response.jwt)
+    localStorage.setItem('user', JSON.stringify(response.user))
+
+
+    if (response.user.userType === 'company') {
+      router.push('/company-dashboard')
+    } else {
+      router.push('/find-jobs')
+    }
+
+  } catch (error) {
+    alert('Invalid email or password')
+  }
+}
+</script>
