@@ -1,5 +1,5 @@
 <template>
-   <body class="bg-gray-200">
+   <body class="bg-gray-200 mt-20">
 
   <section class="max-w-7xl mx-auto px-6 py-16">
     <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -16,9 +16,9 @@
 
       
       <div>
-        <div class="flex justify-center md:justify-start mb-6">
+        <div class="flex justify-center md:justify-start mb-6 ">
          
-          <div class="text-red-500 text-5xl font-bold">
+          <div class="text-red-500 text-5xl font-bold mt-500px">
             Information
           </div>
         </div>
