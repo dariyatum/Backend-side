@@ -2,7 +2,7 @@
   <div class="flex flex-col min-h-screen bg-gray-50">
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-b from-white via-gray-50 to-gray-100 text-center p-7 pt-20">
+    <section class="bg-gradient-to-b from-white via-gray-50 to-gray-100 text-center p-7 pt-30">
       <div class="max-w-5xl mx-auto">
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 mb-4 tracking-tight">
           Find <span class="text-red-600">Jobs</span>
