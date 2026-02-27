@@ -137,11 +137,11 @@ const links = [
   { name: 'Home', path: '/' },
   { name: 'Recruit Talent', path: '/recruit-talent' },
   { name: 'Find Jobs', path: '/find-jobs' },
-  { name: 'HR Toolkit', path: '/products/hr-toolkit' },
+  { name: 'HR Toolkit', path: '/hr-toolkit' },
   { name: 'Products', 
     submenu: [
-      { name: 'Hiring Subscription', path: '/products/hiring-subscription' },
-      { name: 'HR Toolkit Subscription', path: '/products/hrtoolkit-subscription' },
+      { name: 'Hiring Subscription', path: '/hiring-subscription' },
+      { name: 'HR Toolkit Subscription', path: '/hrtoolkit-subscription' },
     ]
   },
   { name: 'Why Us?', path: '/why-us' }
