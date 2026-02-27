@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-gray-50">
+  <div class="flex flex-col min-h-screen {{ job.bg }}">
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-b from-white via-gray-50 to-gray-100 text-center p-7 pt-30">
+    <section class=" {{ job.bg }} from-white via-gray-50 to-gray-100 text-center p-7 pt-30">
       <div class="max-w-5xl mx-auto">
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 mb-4 tracking-tight">
           Find <span class="text-red-600">Jobs</span>
@@ -140,16 +140,16 @@
     </main>
 
     <!-- Job Cards Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 {{ job.bg }}">
       <div
         v-for="(job, idx) in filteredJobs"
         :key="idx"
-        class="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition"
+        class="{{ job.bg }} rounded-2xl border border-gray-200 shadow-sm p-6 flex flex-col justify-between hover:shadow-md transition"
       >
         <div>
           <div class="flex justify-between items-center">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center font-semibold">
+              <div class="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center font-semibold ">
                 {{ job.logo }}
               </div>
               <span class="text-gray-700 font-medium">{{ job.company }}</span>
