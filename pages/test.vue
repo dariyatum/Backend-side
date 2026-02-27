@@ -13,6 +13,7 @@ const jobPostingDatas = dataFetch.data.data;
 console.log(jobPostingDatas);
 
 </script>
+
 <template>
   <div>
     <h1>Job Postings</h1>

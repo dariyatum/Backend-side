@@ -43,8 +43,8 @@
           <tr class="text-center">
             <th class="p-4 border border-gray-200 w-[200px]">
               <div class="flex flex-col items-center">
-                <img src="https://workingna.com/dist/img/logo-workingna.png" alt="Workingna" class="w-32 mb-2">
-                <p class="text-[8px] text-gray-400 uppercase italic">Hire Better and Faster with Data</p>
+                <img src="https://workingna.com/dist/img/logo-workingna.png" alt="" class="w-32 mb-2">
+                <p class="text-[8px] text-gray-400 uppercase italic"></p>
               </div>
             </th>
             
@@ -64,7 +64,7 @@
             </th>
 
             <th class="p-4 border border-gray-200 align-top bg-[#FFFCF0]">
-              <div class=" from-[#D4AF37] to-[#B8860B] text-white py-1 text-[11px] font-bold rounded-full mb-2 mx-4 uppercase shadow-sm">Signature 👑</div>
+              <div class=" from-[#D4AF37] to-[#B8860B] text-red py-1 text-[11px] font-bold rounded-full mb-2 mx-4 uppercase shadow-sm">Signature </div>
               <div class="text-[10px] text-gray-400 line-through">$464.97 <span class="text-[#8CC63F] font-bold">(15% off)</span></div>
               <div class="text-3xl font-bold text-[#333] mb-1">$395.22</div>
               <p class="text-[9px] text-[#8CC63F] font-bold mb-4">Save up to 69.75$ <span class="block text-gray-400 font-normal">/quarterly</span></p>

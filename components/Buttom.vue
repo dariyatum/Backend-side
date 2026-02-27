@@ -17,26 +17,26 @@
     </div>
 
     <div id="category-container" class="flex flex-wrap gap-3 mb-12">
-     <a href="/">
+     <NuxtLink to="/">
       <button class="category-btn active px-6 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
         All Category
       </button>
-    </a>
+    </NuxtLink>
 
-   <a href="http://localhost:3000/sop"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
+   <NuxtLink href="http://localhost:3000/sop"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
     SOP
-  </button></a>
+  </button></NuxtLink>
 
-    <a href="http://localhost:3000/form"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
+    <NuxtLink href="http://localhost:3000/form"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
     Form
-  </button></a>
+  </button></NuxtLink>
 
-   <a href="http://localhost:3000/kpiemplate"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
+   <NuxtLink href="http://localhost:3000/kpiemplate"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
     KPI Template
-  </button></a>
+  </button></NuxtLink>
 
-   <a href="http://localhost:3000/contract"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
+   <NuxtLink href="http://localhost:3000/contract"><button class="category-btn px-8 py-1.5 rounded-full text-sm font-bold border border-black hover:bg-red-500 hover:text-white hover:border-red-500">
     Contract
-  </button></a>
+  </button></NuxtLink>
 </div>
 </template>

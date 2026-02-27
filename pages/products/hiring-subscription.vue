@@ -122,7 +122,7 @@
 
             <th class="p-4 border border-gray-200 align-top bg-[#FFFDF5]">
               <div class="bg-[#E8C547] text-white py-1 text-[11px] font-bold rounded-full mb-2 mx-4 uppercase shadow-sm">AI Hire+</div>
-              <div class="text-[10px] text-gray-400 line-through">$299.97 <span class="text-[#8CC63F] font-bold">(15% off)</span></div>
+              <div class="text-[10px] text-gray-400 line-through">$899.97 <span class="text-[#8CC63F] font-bold">(15% off)</span></div>
               <div class="text-3xl font-bold text-[#333] mb-1">$254.97</div>
               <p class="text-[9px] text-[#8CC63F] font-bold mb-4">Save up to 45.00$ <span class="block text-gray-400 font-normal">/quarterly</span></p>
               <button class="bg-[#E8C547] text-white px-4 py-1 rounded-full text-[10px] font-bold shadow-md">Start AI Hire+</button>
@@ -130,15 +130,15 @@
 
             <th class="p-4 border border-gray-200 align-top bg-[#FFFCF0]">
               <div class=" from-[#D4AF37] to-[#B8860B] text-red py-1 text-[11px] font-bold rounded-full mb-2 mx-4 uppercase shadow-sm">Signature </div>
-              <div class="text-[10px] text-gray-400 line-through">$464.97 <span class="text-[#8CC63F] font-bold">(15% off)</span></div>
-              <div class="text-3xl font-bold text-[#333] mb-1">$395.22</div>
+              <div class="text-[10px] text-gray-400 line-through">$864.97 <span class="text-[#8CC63F] font-bold">(15% off)</span></div>
+              <div class="text-3xl font-bold text-[#333] mb-1">$495.22</div>
               <p class="text-[9px] text-[#8CC63F] font-bold mb-4">Save up to 69.75$ <span class="block text-gray-400 font-normal">/quarterly</span></p>
               <button class="bg-[#D4AF37] text-white px-4 py-1 rounded-full text-[10px] font-bold shadow-md">Start Signature</button>
             </th>
 
             <th class="p-4 border border-gray-200 align-top">
               <div class="bg-[#B32017] text-white py-1 text-[11px] font-bold rounded-full mb-2 mx-4 uppercase">Signature+</div>
-              <div class="text-[10px] text-gray-400 line-through">$899.97 <span class="text-[#8CC63F] font-bold">(5% off)</span></div>
+              <div class="text-[10px] text-gray-400 line-through">$799.97 <span class="text-[#8CC63F] font-bold">(5% off)</span></div>
               <div class="text-3xl font-bold text-[#333] mb-1">$854.97</div>
               <p class="text-[9px] text-[#8CC63F] font-bold mb-4">Save up to 45.00$ <span class="block text-gray-400 font-normal">/quarterly</span></p>
               <button class="bg-[#B32017] text-white px-4 py-1 rounded-full text-[10px] font-bold">Start Signature+</button>
@@ -218,7 +218,7 @@
       <div class="border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow text-center">
         <div class="flex justify-center mb-6">
           <div class="w-16 h-16 bg-red-50 rounded-lg flex items-center justify-center">
-            <span class="text-red-500 text-3xl">🖥️</span>
+            <span class="text-red-500 text-3xl"><i class="fa-solid fa-computer"></i></span>
           </div>
         </div>
         <h3 class="text-red-500 font-bold mb-4">Publish your Job Vacancy</h3>
@@ -230,7 +230,7 @@
       <div class="border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow text-center">
         <div class="flex justify-center mb-6">
           <div class="w-16 h-16 bg-red-50 rounded-lg flex items-center justify-center">
-            <span class="text-red-500 text-3xl">👤</span>
+            <span class="text-red-500 text-3xl"><i class="fa-solid fa-user"></i></span>
           </div>
         </div>
         <h3 class="text-red-500 font-bold mb-4">Automated Shortlisting Process</h3>

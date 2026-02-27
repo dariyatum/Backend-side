@@ -14,7 +14,7 @@
       <div class="border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow text-center">
         <div class="flex justify-center mb-6">
           <div class="w-16 h-16 bg-red-50 rounded-lg flex items-center justify-center">
-            <span class="text-red-500 text-3xl">🖥️</span>
+            <span class="text-red-500 text-3xl"><i class="fa-solid fa-computer"></i></span>
           </div>
         </div>
         <h3 class="text-red-500 font-bold mb-4">Publish your Job Vacancy</h3>
@@ -26,7 +26,7 @@
       <div class="border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow text-center">
         <div class="flex justify-center mb-6">
           <div class="w-16 h-16 bg-red-50 rounded-lg flex items-center justify-center">
-            <span class="text-red-500 text-3xl">👤</span>
+            <span class="text-red-500 text-3xl"><i class="fa-solid fa-user"></i></span>
           </div>
         </div>
         <h3 class="text-red-500 font-bold mb-4">Automated Shortlisting Process</h3>
@@ -166,3 +166,20 @@
     </div>
   </div>
 </template>
+
+
+<script setup>
+import { ref, onMounted } from 'vue'
+import axios from 'axios'
+
+const config = {
+  headers: {
+    Authorization: 'Bearer 5671ef8cab6c8e94e40fa2affbb65f1984ea2c9835b31ccd4edcd2ac66d8d1e962ee81fa3fd2b4a01c9bb28f6084053cdf9a1d1d50b1a1f85a304a0fbe1da150020999f3d91ccf1839f1632093b08984ed88c327a10303cb03c291be079ae486611cf6ea0a161f9e79ee5adcd0c6f9d654e1e92938fc1e7479b0a6e6ddcf7d4d'
+  }
+}
+const dataFetch = await axios.get('http://localhost:1337/api/job-postings', config);
+const jobPostingDatas = dataFetch.data.data;
+
+console.log(jobPostingDatas);
+
+</script>

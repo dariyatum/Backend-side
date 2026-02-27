@@ -7,7 +7,6 @@ import SectionHero from '../components/SectionHero.vue';
 
 <template>
   <AppHeader /> 
-  <SectionHero />
   <div class="ml-[100px] mt-[60px]">
   <Buttom />
   </div>

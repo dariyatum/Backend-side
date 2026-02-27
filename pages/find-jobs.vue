@@ -33,11 +33,11 @@
                 class="w-full pl-11 pr-10 py-3.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 bg-white appearance-none shadow-sm transition cursor-pointer hover:border-gray-400"
                 :class="{ 'text-gray-900': selectedLocation, 'text-gray-500': !selectedLocation }"
             >
-                <option value="">Location...</option>  <!-- No disabled/selected here -->
+                <option value="">Location...</option>  
 
                 <option value="Phnom Penh">Phnom Penh</option>
                 <option value="Siem Reap">Siem Reap</option>
-                <!-- ... other options ... -->
+              
                 <option value="All Cambodia">All Cambodia</option>
             </select>
 
@@ -48,7 +48,7 @@
             </div>
             </div>
 
-          <!-- Search Input -->
+        
           <div class="relative flex-[2]">
             <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
               <svg class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -64,7 +64,7 @@
             />
           </div>
 
-          <!-- Button -->
+        
           <button
             @click="handleSearch"
             class="bg-red-600 hover:bg-red-700 text-white font-semibold py-3.5 px-10 rounded-lg transition shadow-md whitespace-nowrap text-base"
@@ -82,13 +82,12 @@
       Featured Jobs
     </h2>
 
-    <!-- Carousel Container -->
+  
     <div 
       class="relative overflow-hidden"
       @mouseenter="pauseAutoSlide = true"
       @mouseleave="pauseAutoSlide = false"
     >
-      <!-- Slider Track -->
       <div 
         class="flex transition-transform duration-700 ease-in-out"
         :style="{ transform: `translateX(-${currentIndex * (100 / visibleCards)}%)` }"
@@ -110,7 +109,6 @@
         </div>
       </div>
 
-      <!-- Left Arrow -->
       <button 
         @click="prevSlide"
         class="absolute left-0 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg z-10 transition opacity-70 hover:opacity-100 disabled:opacity-30"
@@ -132,7 +130,6 @@
         </svg>
       </button>
 
-      <!-- Dots Indicators -->
       <div class="flex justify-center mt-6 space-x-3">
         <button
           v-for="n in Math.ceil(jobs.length / visibleCards)"
@@ -152,12 +149,10 @@
   <section class="w-full bg-gray-200 py-6">
     <div class="max-w-7xl mx-auto px-6">
       
-      <!-- Title -->
       <h2 class="text-3xl font-bold text-gray-900 mb-6">
         Top Employers
       </h2>
 
-      <!-- Logo Slider Container -->
       <div class="relative">
 
         <!-- Logos Wrapper -->
