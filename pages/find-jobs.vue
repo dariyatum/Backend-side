@@ -180,9 +180,12 @@
           </div>
         </div>
 
-        <button class="mt-6 w-full py-3 rounded-full border border-red-500 text-red-500 font-medium hover:bg-red-500 hover:text-white transition">
-          View More
-        </button>
+<NuxtLink
+  :to="`/jobs/${job.id}`"
+  class="mt-6 w-full py-3 rounded-full border border-red-500 text-red-500 font-medium hover:bg-red-500 hover:text-white transition text-center block"
+>
+  View More
+</NuxtLink>
       </div>
     </div>
   </div>
